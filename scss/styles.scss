@@ -347,9 +347,9 @@ footer {
 
 #lead {
     position: relative;
-    height: auto;
-    min-height: 200px;
-    max-height: 500px;
+    weight: auto;
+    min-height: 100px;
+    max-height: 300px;
     background: url(../images/lead-bg.jpg);
     background-size: contain;
     background-repeat: no-repeat;
