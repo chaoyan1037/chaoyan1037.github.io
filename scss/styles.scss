@@ -348,12 +348,12 @@ footer {
 
 #lead {
     position: relative;
-    min-height: 300px;
-    max-height: 600px;
+    min-height: 480px;
+    max-height: 800px;
     background: url(../images/lead-bg.jpg);
     background-size: cover;
     padding: 10px;
-    overflow: visible;
+    overflow: hidden;
 }
 
 #lead-content {
@@ -371,7 +371,7 @@ footer {
     h1 {
         color: #fff;
         font-weight: 600;
-        font-size: 4em;
+        font-size: 3em;
         text-transform: uppercase;
         letter-spacing: 0.05em;
         line-height: 0.9em;
@@ -380,7 +380,7 @@ footer {
     h2 {
         color: lighten($base-color, 25%);
         font-weight: 400;
-        font-size: 2em;
+        font-size: 1.75em;
         margin-bottom: 15px;
     }
 }
